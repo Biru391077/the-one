@@ -1,0 +1,91 @@
+body {
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    background: #1e293b;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+#mode-toggle {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #3b82f6;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
+
+.intro {
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.section-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+#gallery-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px;
+    background: #3b82f6;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* LIGHT MODE */
+body.light {
+    background: #f5f5f5;
+    color: #111;
+}
+
+body.light .card {
+    background: white;
+    color: black;
+}
+
+body.light .nav-menu a {
+    background: #e2e8f0;
+    color: black;
+}
+
+body.light .intro {
+    background: white;
+    color: black;
+}
